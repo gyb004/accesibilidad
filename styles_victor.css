@@ -45,6 +45,7 @@ img {
   --secondary-font: "Open Sans", sans-serif;
   --shadow: rgba(0, 0, 0, 0.75);
   --verde: #7ac943;
+  --azul: #4cacec;
 }
 
 body, header, section {
@@ -61,7 +62,7 @@ body, header, section {
 
 .skip-link:focus,
 .skip-link:active {
-  background: var(--verde);
+  background: var(--azul);
   border-radius: 5px;
   color: var(--gris-oscuro);
   font-family: var(--secondary-font);
@@ -70,7 +71,7 @@ body, header, section {
   padding: 8px;
   text-decoration: none;
   border: 5px solid var(--gris-oscuro);
-  outline: 3px solid var(--verde);
+  outline: 3px solid var(--azul);
 }
 
 .header {
@@ -81,7 +82,7 @@ body, header, section {
 }
 
 .subtitle {
-  color: var(--verde);
+  color: var(--azul);
   font-family: var(--secondary-font);
   font-size: 24px;
 }
@@ -125,13 +126,13 @@ nav {
 
 .nav-item:hover,
 .nav-item:hover a {
-  background-color: var(--verde);
-  color: var(--gris-oscuro);
+  background-color: var(--azul);
+  color: var(--blanco);
   cursor: pointer;
 }
 
 .nav-item:focus-within {
- background-color: var(--verde); 
+ background-color: var(--azul); 
 }
 
 .nav-item a:focus {
@@ -158,6 +159,7 @@ nav {
   color: var(--blanco);
   font-family: var(--secondary-font);
   text-decoration: none;
+  margin-right: 50px;
 }
 
 .social-media li a:focus{
@@ -165,7 +167,7 @@ nav {
 }
 
 .social-media li:focus-within {
-  outline: 3px solid var(--verde);
+  outline: 3px solid var(--azul);
   padding: 8px;
 }
 
@@ -203,7 +205,7 @@ nav {
 }
 
 .project-container button:focus-within {
-  outline: 3px solid var(--verde);
+  outline: 3px solid var(--azul);
 }
 
 .project-img {
@@ -234,18 +236,18 @@ nav {
 
 .arrow-left {
   background: center / contain no-repeat url(./images/play-button-left.png);
-  background-color: var(--verde);
+  background-color: var(--azul);
   border-radius: 50%;
 }
 
 .arrow-right {
   background: center / contain no-repeat url(./images/play-button-right.png);
-  background-color: var(--verde);
+  background-color: var(--azul);
   border-radius: 50%;
 }
 
 .arrow:focus {
-  outline: 3px solid var(--verde);
+  outline: 3px solid var(--azul);
 }
 
 .contact-section {
@@ -264,7 +266,7 @@ nav {
 
 .form-label,
 .message-input {
-  color: var(--verde);
+  color: var(--azul);
   font-family: var(--secondary-font);
 }
 
@@ -278,14 +280,14 @@ input {
 }
 
 input:focus {
-  outline: 3px solid var(--verde);
+  outline: 3px solid var(--azul);
   padding: 8px;
 }
 
 .send-button,
 .modal-button {
   align-items: center;
-  background-color: var(--verde);
+  background-color: var(--azul);
   border-radius: 5px;
   color: var(--gris-oscuro);
   font-family: var(--secondary-font);
@@ -302,7 +304,7 @@ input:focus {
 .send-button:focus,
 .modal-button:focus {
   border: 5px solid var(--gris-oscuro);
-  outline: 3px solid var(--verde);
+  outline: 3px solid var(--azul);
 }
 
 #name-error {
@@ -312,7 +314,7 @@ input:focus {
 
 .notification {
   align-items: center;
-  background-color: var(--verde);
+  background-color: var(--azul);
   border-radius: 5px;
   box-shadow: 8px 16px 32px 0px var(--shadow);
   color: var(--gris-oscuro);
