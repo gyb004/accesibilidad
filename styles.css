@@ -46,6 +46,7 @@ img {
   --shadow: rgba(0, 0, 0, 0.75);
   --verde: #7ac943;
   --azul: #4cacec;
+  --negro: black;
 }
 
 body, header, section {
@@ -143,7 +144,7 @@ nav {
 .intro {
   margin: 24px 196px 0;
   font-family: var(--secondary-font);
-  color: var(--blanco);
+  color: var(--negro);
 }
 
 .social-media {
